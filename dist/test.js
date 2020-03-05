@@ -10,7 +10,7 @@ var sentences = [{
   object: 'large'
 }]; // es6 feature: object destructuring
 
-function sat(_ref) {
+function say(_ref) {
   var subject = _ref.subject,
       verb = _ref.verb,
       object = _ref.object;

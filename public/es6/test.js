@@ -7,9 +7,9 @@ const sentences = [
 ];
 
 // es6 feature: object destructuring
-function sat({ subject, verb, object }){
+function say({ subject, verb, object }){
 	// es6 feature: template strings
-	console.log(`${subject}${verb}${object}`);
+	console.log(`${subject} ${verb} ${object}`);
 }
 
 // es6 features: for .. of
