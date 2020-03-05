@@ -10,12 +10,12 @@ var sentences = [{
   object: 'Sampion'
 }]; // es6 feature: object destructuring
 
-function sat(_ref) {
+function say(_ref) {
   var subject = _ref.subject,
       verb = _ref.verb,
       object = _ref.object;
   // es6 feature: template strings
-  console.log("".concat(subject).concat(verb).concat(object));
+  console.log("".concat(subject, " ").concat(verb, " ").concat(object));
 } // es6 features: for .. of
 
 

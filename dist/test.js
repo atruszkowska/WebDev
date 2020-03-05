@@ -15,7 +15,7 @@ function say(_ref) {
       verb = _ref.verb,
       object = _ref.object;
   // es6 feature: template strings
-  console.log("".concat(subject).concat(verb).concat(object));
+  console.log("".concat(subject, " ").concat(verb, " ").concat(object));
 } // es6 features: for .. of
 
 
